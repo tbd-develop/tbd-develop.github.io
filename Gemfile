@@ -14,6 +14,7 @@ gem "jekyll", "~> 3.8.5"
 gem "jekyll-theme-midnight", "~> 0.1.1"
 
 gem "nokogiri", "~> 1.11.0.rc2"
+gem "activesupport", ">= 4.1.11"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
