@@ -105,12 +105,14 @@ to the races!
 ```C#
 private ZXScanningPage _scanner;
 ```
-- Then, add a Button, and on the OnClick handler
+- In the constructor for the page
 ```C#
     _scanner = new ZXingScannerPage();
 
     _scanner.OnScanResult += BarcodePickerOnDidScan;
-
+```
+- Then, add a Button, and on the OnClick handler
+```C#
     await Navigation.PushModalAsync(_scanner);
 ```
 - Then create the method BarcodePickerOnDidScan (or whatever you want to call it)
@@ -119,7 +121,6 @@ private ZXScanningPage _scanner;
 Device.BeginInvokeOnMainThread(async () =>
     {
         _scanner.IsScanning = false;
-        _scanner.OnScanResult -= BarcodePickerOnDidScan;
 
         await Navigation.PopModalAsync();
 
@@ -129,6 +130,5 @@ Device.BeginInvokeOnMainThread(async () =>
         string scannedCode = result.Text;
     });
 ```
-- I did not see an issue with the multi-scanning with ZXing as I did with the Scandit control, but it can't hurt to make sure we're not working too hard!
 - From here, as before, I navigated to another page from within the BeginInvoke. 
 - One thing I did miss here was there is no audible beep when the scan is made as with Scandit. There are ways to add that sound, but that's not my priority right now. 
