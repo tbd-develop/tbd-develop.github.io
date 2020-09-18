@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Barcode Scanning in Xamarin Forms"
+date:   2020-05-14 23:00:00 -0400
+categories: development update
+---
+
 Introduction
 ---
 
