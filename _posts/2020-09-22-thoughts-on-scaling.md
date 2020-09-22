@@ -18,12 +18,12 @@ In trying to order one of these new consoles, I had a variety of experiences. He
 #### Microsoft
 As the manufacturer of the console, I figured that Microft might be ready. I found the page from which I would be able to pre-order the console beforehand, I sat in wait until the time it was meant to go live. At the time of go live;
 
-&nbsp;&nbsp;- I refresh the page and saw a nice shiney button 'Pre-Order'. I clicked the button, nothing happened. I clicked it again, a circle, an error.
-&nbsp;&nbsp;- I stepped away for a few minutes. On returning and trying again, I was logged out. 
-&nbsp;&nbsp;- I tried to add to my cart, it said it was added. Problem, I wasn't logged in. On logging in, my cart was empty. 
-&nbsp;&nbsp;- I stepped away for a few more minutes while I tried other retailers. 
-&nbsp;&nbsp;- XBox Series X was in my cart, I clicked check-out, error.
-&nbsp;&nbsp;- Refresh, click Check-Out. Success. 
+- I refresh the page and saw a nice shiney button 'Pre-Order'. I clicked the button, nothing happened. I clicked it again, a circle, an error.  
+- I stepped away for a few minutes. On returning and trying again, I was logged out.   
+- I tried to add to my cart, it said it was added. Problem, I wasn't logged in. On logging in, my cart was empty.   
+- I stepped away for a few more minutes while I tried other retailers.   
+- XBox Series X was in my cart, I clicked check-out, error.  
+- Refresh, click Check-Out. Success.   
 
 Others reportedly had a much rougher experience than me. 
 
